@@ -1,16 +1,16 @@
 
-		.navbar ul li {display:inline;}
-		.navbar a {
-			padding:8px;
-			color:white; background-color: #000000;
-			font-family:arial;
-			border-style:out;
-			text-decoration:none;
-			width:8em;
-			}
-			.navbar a:hover,
-			.navbar a:active
-			{
-			border-style:inset;
-			color:yellow;
-			}
+.navbar ul li {display:inline;}
+.navbar a {
+	padding:8px;
+	color:white; background-color: #6aa84f;
+	font-family:arial;
+	border-style:out;
+	text-decoration:none;
+	width:8em;
+	}
+	.navbar a:hover,
+	.navbar a:active
+	{
+	border-style:inset;
+	color:yellow;
+	}
