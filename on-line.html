@@ -1,25 +1,47 @@
 <html>
 	<head>
+		<img src="logo.png"/>
 		<h1> Hot Beans Web application websiet </h1>
-		<link rel="stylesheet" type="text/css" href="http://ianlunn.github.io/Hover/css/hover.css" >
-		<link href="main.CSS" rel="stylesheet" type="text/CSS">
+		<link href="main.css" rel="stylesheet" type="text/CSS">
 	</head>
-	<body>
+	<body style="background-color:powderblue;">
 		<div class="navbar">
-		<ul>
-		<li><a href="index.html"> home </a>
-		<li><a href="QA.html"> Q.N.A </a>
-		<li><a href="photos.html"> Gallery </a>
-		<li><a href="links.html"> links </a>
-		<li><a href="company.html"> company info </a>
-		<li><a href="trainees.html"> trainees </a>
-		<li><a href="job.html"> job requirments </a>
-		<li><a href="on-line.html"> application </a>
-		</ul>
+			<ul>
+				<li><a href="index.html"> home </a>
+				<li><a href="QA.html"> Q.N.A </a>
+				<li><a href="photos.html"> Gallery </a>
+				<li><a href="links.html"> links </a>
+				<li><a href="company.html"> company info </a>
+				<li><a href="trainees.html"> trainees </a>
+				<li><a href="job.html"> job requirments </a>
+				<li><a href="on-line.html"> application from </a>
+			</ul>
 		</div>
 	</body>
 	<body>
-		<h2>application</h2>
-		<p></p>
+		<h2> application form </h2>
+		<form action="https://formspree.io/xdqwkygm" method="POST">
+			<fieldset>
+				<legend>Personal information:</legend>
+				<p>first name</p>
+				<input type="text" name="firstname" size="25" required>
+				<p>Last name</p>
+				<input type="text" name="lastname" size="25" required>
+				<p> qualifications </p>
+				<textarea name="message" rows="10" cols="30">wriet here</textarea>
+				<p> skills </p>
+				<textarea name="message" rows="10" cols="30">wriet here</textarea>
+				<p> info about me </p>
+				<textarea name="message" rows="10" cols="30">wriet here</textarea>
+			</fieldset>
+			<fieldset>
+				<legend>contact information:</legend>
+				<p>email</p>
+				<input type="email" size="25" required>
+				<p>phone number</p>
+				<input type="text" size="25">
+			</fieldset>
+				<input type="submit" value="Submit">
+		</form>
 	</body>
 </html>
