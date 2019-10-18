@@ -14,3 +14,38 @@
 	border-style:inset;
 	color:yellow;
 	}
+	
+	#header
+	{
+		margin-bottom: 10px;
+		background-color:powderblue
+	}
+		
+	#cont1
+	{
+		float: left;
+		width: 32%;
+		margin-left: 3%;
+		background-color:powderblue	
+	}
+		
+	#cont2
+	{
+		float: left;
+		width: 42%;
+		margin-left: 3%;
+		display: inline;
+		background-color:powderblue
+	}
+	
+	#fl
+	{
+		float : left
+	}
+
+	#fr
+	{
+		float : right
+	}
+
+

@@ -1,8 +1,19 @@
 <html>
 	<head>
-		<img src="logo.png"/>
-		<h1> Hot Beans Web application websiet </h1>
-		<link href="main.css" rel="stylesheet" type="text/CSS">
+		<div id="header">
+			<img id="fl" src="logo.png"/>
+			<h1> Hot Beans Web application websiet </h1>
+			<link href="main.css" rel="stylesheet" type="text/CSS">
+		</div>
+		<link rel="apple-touch-icon" sizes="180x180" href="https://m-debug13.github.io/hotbeans/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="https://m-debug13.github.io/hotbeans/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://m-debug13.github.io/hotbeans/favicon-16x16.png">
+		<link rel="manifest" href="https://m-debug13.github.io/hotbeans/site.webmanifest">
+		<link rel="mask-icon" href="https://m-debug13.github.io/hotbeans/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="https://m-debug13.github.io/hotbeans/favicon.ico">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-config" content="https://m-debug13.github.io/hotbeans/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
 	</head>
 	<body style="background-color:powderblue;">
 		<div class="navbar">
@@ -20,28 +31,32 @@
 	</body>
 	<body>
 		<h2> application form </h2>
-		<form action="https://formspree.io/xdqwkygm" method="POST">
-			<fieldset>
-				<legend>Personal information:</legend>
-				<p>first name</p>
-				<input type="text" name="firstname" size="25" required>
-				<p>Last name</p>
-				<input type="text" name="lastname" size="25" required>
-				<p> qualifications </p>
-				<textarea name="message" rows="10" cols="30">wriet here</textarea>
-				<p> skills </p>
-				<textarea name="message" rows="10" cols="30">wriet here</textarea>
-				<p> info about me </p>
-				<textarea name="message" rows="10" cols="30">wriet here</textarea>
-			</fieldset>
-			<fieldset>
-				<legend>contact information:</legend>
-				<p>email</p>
-				<input type="email" size="25" required>
-				<p>phone number</p>
-				<input type="text" size="25">
-			</fieldset>
-				<input type="submit" value="Submit">
+		<div id="cont1">
+			<form action="https://formspree.io/xdqwkygm" method="POST">
+				<fieldset>
+					<legend>Personal information:</legend>
+					<p>first name</p>
+					<input type="text" name="firstname" size="25" required>
+					<p>Last name</p>
+					<input type="text" name="lastname" size="25" required>
+					<p> qualifications </p>
+					<textarea name="message" rows="10" cols="30">wriet here</textarea>
+					<p> skills </p>
+					<textarea name="message" rows="10" cols="30">wriet here</textarea>
+					<p> info about me </p>
+					<textarea name="message" rows="10" cols="30">wriet here</textarea>
+				</fieldset>
+		</div>
+		<div id="cont2">
+				<fieldset>
+					<legend>contact information:</legend>
+					<p>email</p>
+					<input type="email" size="25" required>
+					<p>phone number</p>
+					<input type="text" size="25">
+				</fieldset>
+					<input type="submit" value="Submit">
+		</div>
 		</form>
 	</body>
 </html>
